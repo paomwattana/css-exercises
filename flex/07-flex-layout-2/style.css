@@ -60,14 +60,16 @@ body {
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
 
-  display: flex;
-  flex-flow: column;
+.sidebar li {
+  margin-bottom: 16px;
 }
 
 .sidebar a {
   color: white;
   text-decoration: none;
+  font-size: 24px;
 }
 
 .footer {
@@ -78,17 +80,12 @@ body {
 
 .cards {
   padding: 32px;
-
   display: flex;
   flex-wrap: wrap;
-  gap: 32px;
 }
 
 .card {
   width: 300px;
-  padding: 10px;
-
-  display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
+  padding: 16px;
+  margin: 16px;
 }
