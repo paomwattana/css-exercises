@@ -5,8 +5,12 @@
   height: 300px;
 
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /* main axis, based on flex-direction which is row by default */
+  align-items: center; /* cross axis, opposite of justify-content */
+  /* DON'T confuse this with align-content */
+  /* better yet - experiment setting align-content here,
+    it won't adjust like justify-content.
+    it's for setting multi-row stuff*/
 }
 
 .box {
